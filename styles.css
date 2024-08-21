@@ -1,0 +1,118 @@
+/* font styles */
+
+body {
+  color: #6c757d;
+  margin: 0;
+  padding: 0;
+}
+/* .header-container {
+  background-image: url("https://img.freepik.com/free-vector/background-with-white-technology-design_23-2148384332.jpg?size=626&ext=jpg&ga=GA1.1.1934817260.1724256952&semt=ais_hybrid"); Add your tech-looking image here
+  background-size: cover;  
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
+} */
+#logo {
+  color: #007bff;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+nav {
+  /* background-color: #333; */
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  /* background-color: #333; */
+  display: flex;
+  justify-content: center; /* Centers the links horizontally */
+  align-items: center; /* Centers the links vertically (if needed) */
+  height: 40px; /* Adjust the height as needed */
+}
+
+li {
+  margin: 0 20px; /* Adjust spacing between items */
+}
+
+a {
+  text-decoration: none;
+  color: #6c757d;
+  padding: 10px;
+  display: block;
+}
+/*  */
+
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 1000px; /* Adjust the max-width as needed */
+  height: 400px; /* Adjust the height as needed */
+  margin: 20px auto; /* Center the banner horizontally */
+  overflow: hidden;
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner img.hover-img {
+  opacity: 0;
+}
+
+.banner:hover img.hover-img {
+  opacity: 1;
+}
+
+.banner:hover img.default-img {
+  opacity: 0;
+}
+
+.banner .content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #6c757d;
+  z-index: 2;
+}
+
+.banner .content h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.banner .content p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.banner .content .shop-now {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.banner .content .shop-now:hover {
+  background-color: #0056b3;
+}
+.banner .content :hover {
+  color: #0056b3;
+}
