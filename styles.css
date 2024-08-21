@@ -4,6 +4,7 @@ body {
   color: #6c757d;
   margin: 0;
   padding: 0;
+  background-color: #6c757d;
 }
 /* .header-container {
   background-image: url("https://img.freepik.com/free-vector/background-with-white-technology-design_23-2148384332.jpg?size=626&ext=jpg&ga=GA1.1.1934817260.1724256952&semt=ais_hybrid"); Add your tech-looking image here
@@ -12,6 +13,7 @@ body {
   padding: 20px;
   text-align: center;
   color: white;
+  
 } */
 #logo {
   color: #007bff;
