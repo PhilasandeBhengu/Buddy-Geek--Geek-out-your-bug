@@ -15,6 +15,7 @@ body {
   color: white;
   
 } */
+/* navigation bar  */
 #logo {
   color: #007bff;
 }
@@ -49,6 +50,73 @@ a {
   color: #6c757d;
   padding: 10px;
   display: block;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: url("your-background-image.jpg") no-repeat center center/cover;
+}
+
+.navbar h1 {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Burger Menu Styling */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin: 5px;
+  transition: 0.4s;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
 }
 /*  */
 
